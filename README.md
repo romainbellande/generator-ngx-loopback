@@ -16,6 +16,51 @@ Then generate your new project:
 yo ngx-loopback
 ```
 
+## Technologies used
+
+- [Angular](https://angular.io/)
+- [Loopback](https://loopback.io/)
+- [MongoDb](https://www.mongodb.com/download-center#community) (optionnal)
+- [Bootstrap 4](https://v4-alpha.getbootstrap.com/)
+- [ng-bootstrap](https://ng-bootstrap.github.io)
+
+## Requirements
+
+- Mongodb installed (but you can use another datasource with loopback)
+- [yarn](https://yarnpkg.com), a tool to perform a better dependency management than npm.
+
+## Setup
+
+- execute `mongod` in your your shell to start mongodb database
+- start loopback with `npm start`
+- start angular with `npm run angular`
+- enjoy !
+
+## Usage
+
+### UserService
+
+- User creation
+```
+this.userService.create({
+  username: 'admin',
+  password: 'admin',
+  email: 'admin@example.com'
+}).subscribe();
+```
+- User login
+```
+this.userService.login({
+  username: 'admin',
+  password: 'admin'
+}).subscribe();
+```
+- User Logout
+```
+this.userService.logout().subscribe();
+```
+
+
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.
