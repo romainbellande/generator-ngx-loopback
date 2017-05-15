@@ -1,0 +1,9 @@
+[{
+  "type": "input",
+  "name": "name",
+  "message": "Your project name"
+}, {
+  "type": "input",
+  "name": "dbName",
+  "message": "Your MongoDb name"
+}]

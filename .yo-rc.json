@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Berelindis",
+      "authorEmail": "romain.bellande@orange.fr",
+      "authorUrl": ""
+    }
+  }
+}
