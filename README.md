@@ -1,6 +1,11 @@
 # generator-ngx-loopback [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > Generator with Angular and Loopback
 
+## Requirements
+
+- Mongodb installed (but you can use another datasource with loopback)
+- [yarn](https://yarnpkg.com), a tool to perform a better dependency management than npm.
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-ngx-loopback using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
@@ -23,11 +28,6 @@ yo ngx-loopback
 - [MongoDb](https://www.mongodb.com/download-center#community) (optionnal)
 - [Bootstrap 4](https://v4-alpha.getbootstrap.com/)
 - [ng-bootstrap](https://ng-bootstrap.github.io)
-
-## Requirements
-
-- Mongodb installed (but you can use another datasource with loopback)
-- [yarn](https://yarnpkg.com), a tool to perform a better dependency management than npm.
 
 ## Setup
 
